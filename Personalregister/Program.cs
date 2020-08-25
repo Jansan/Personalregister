@@ -10,6 +10,8 @@ namespace Personalregister
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Välkommen till Personalregister");
+            
         }
     }
 }
