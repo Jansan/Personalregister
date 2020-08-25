@@ -11,7 +11,10 @@ namespace Personalregister
         static void Main(string[] args)
         {
             Console.WriteLine("Välkommen till Personalregister");
+            var personal1 = new Personal();
             
+            personal1.getPersonal("Martin", 25000);
+            Console.WriteLine("Namn: " + personal1.namn + " " + "Lön: " + personal1.lön);
         }
     }
 }
